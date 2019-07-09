@@ -4,6 +4,11 @@
         <title>Step 4</title>
         <meta charset="UTF-8">
     </head>
+<<<<<<< HEAD
+    
+    
+=======
+>>>>>>> 215a0226503887de9f12ed3e9849ea36741119b9
     <body>
         <form>
             <label for="name">name : </label><input type="text" name="name" id="name"/>
@@ -11,5 +16,21 @@
             <label for="city">city : </label><input type="text" name="city" id="city"/>
             <button  name="validate" id="validate">Validate</button>
         </form>
+<<<<<<< HEAD
+        <script>
+            let v = document.getElementById('validate');
+            v.addEventListener(`click`, print);
+
+        function print() {
+            let name = document.getElementById('name').value;
+            let surname = document.getElementById('surname').value;
+            let city = document.getElementById('city').value;
+            
+            alert('Name : ' + name + '\n' + 'Surname : ' + surname + '\n' + 'city : ' + city);
+        }
+        // Use onclick instead of addEventListener.
+        </script>
+=======
+>>>>>>> 215a0226503887de9f12ed3e9849ea36741119b9
     </body>
 </html>

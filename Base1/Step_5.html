@@ -8,7 +8,24 @@
         <form>
             <label for="first_number">first number : </label><input type="text" id="first_number" name="first_number"/><br/>
             <label for="second_number">second number : </label><input type="text" id="second_number" name="second_number"/><br/>
+<<<<<<< HEAD
+            <button  id="validate" name ="validate" onclick="myForm()">validate</button>
+        </form>
+
+        <script>
+
+            let myForm = function () {
+                let firstNumber = document.getElementById('first_number').value;
+                let secondNumber = document.getElementById('second_number').value;
+            
+                alert('Result : ' + firstNumber * secondNumber);
+        }
+        //USE onclick instead of addEventListener. Check preventdefault.
+        </script>
+        
+=======
             <button  id="validate" name ="validate">validate</button>
         </form>
+>>>>>>> 215a0226503887de9f12ed3e9849ea36741119b9
     </body>
 </html>
